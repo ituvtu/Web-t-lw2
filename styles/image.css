@@ -1,0 +1,17 @@
+/* gallery.css */
+.image-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Два стовпця */
+    gap: 10px; /* Відступи між фотографіями */
+    
+}
+.image-container img {
+    height: auto;
+    max-width: 500px; 
+    border: 2px solid #333; 
+    border-radius: 10px;
+}
+
+.image-container:hover{
+    cursor: not-allowed;
+  }

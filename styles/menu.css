@@ -1,0 +1,12 @@
+.Menu a:hover {text-decoration: underline;}
+.menu div {display: inline;margin-right: 10px;}
+.menu {
+display: flex; /* Розміщуємо посилання в одному рядку */
+list-style: none; /* Видаляємо маркери списку */
+padding: 0; /* Видаляємо зовнішні відступи для списку */
+justify-content: space-between;
+text-align: center;
+background-color: #008000;
+padding: 10px;
+cursor: pointer;}
+.menu a {display: inline-block;margin: 0 10px; /* Встановіть відступи за потребою */text-decoration: none;color: white;display: inline-block;font-family: 'Montserrat', sans-serif; /* Додали шрифт Montserrat */font-weight:bold;}
